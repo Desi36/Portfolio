@@ -74,8 +74,8 @@ section img {
 }
 
 #ordena {
-    width: 34%;
-    margin-left: 1000px;
+    width: 30%;
+    margin-left: 70em;
     margin-top: -600px;
     /* transform: translateX(0px);
     animation: float 8s ease-out infinite;*/
@@ -129,6 +129,7 @@ p {
     text-align: center;
     margin-bottom: 53px;
     font-size: 19px;
+    margin-left: 10em;
 }
 
 /* BOTON LUZ */
@@ -385,6 +386,17 @@ input:checked~section:after {
     section {
         width: 150%;
     }
+    #zoo{
+        width: 1000px!important;
+        border-radius: 13px;
+
+        
+    }
+    
+    #grafico{
+        width: 1000px!important;
+        border-radius: 13px;
+    }
 }
 
 /* mobile */
@@ -459,6 +471,17 @@ input:checked~section:after {
     .listProject {
         grid-template-columns: 1fr;
     }
+    #zoo{
+        width: 800px !important;
+        border-radius: 15px;
+
+        
+    }
+    
+    #grafico{
+        width: 800px !important;
+        border-radius: 15px;
+    }
 
     /* #label{
         width: 85px;
@@ -469,18 +492,22 @@ input:checked~section:after {
 /* Proyectos*/
 #zoo{
     width: 1200px;
-    margin-left: 260px;
+    display: block;
+    margin: auto;
     border-radius: 15px;
     border: #00b3ff;
     border-style: inset;
+    margin-left: 250px;
 }
 
 #grafico{
     width: 1200px;
-    margin-left: 260px;
+    display: block;
+    margin: auto;
     border-radius: 15px;
     border: #00b3ff;
     border-style: inset;
+    margin-left: 250px;
 }
 
 /* Contacta */
