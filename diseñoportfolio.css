@@ -75,7 +75,7 @@ section img {
 
 #ordena {
     width: 30%;
-    margin-left: 70em;
+    margin-left: 60%;
     margin-top: -600px;
     /* transform: translateX(0px);
     animation: float 8s ease-out infinite;*/
@@ -95,11 +95,35 @@ section img {
     }
 } */
 
+#aboutme{
+    height: 100vh;
+}
+#contact{
+    height: 80vh;
+}
+/* #skills{
+    height: 80vh;
+} */
+#skill{
+    margin-bottom: 1em;
+    padding-top: 2%;
+}
+
+#micontenido{
+    background-color: rgb(0 20 36);
+    /* margin-top: 12%; */
+    padding: 5em;
+    margin-bottom: 3em;
+}
+
 h1 {
-    font-size: 36px;
+    font-size: 38px; 
     color: mediumorchid;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 2em;
+}
+#bienvenida{
+    font-size: 4em;
 }
 
 h3 {
@@ -107,12 +131,13 @@ h3 {
     color: white;
     width: 750px;
     text-align: -webkit-left;
+    margin-left: -18em;
 }
 
 p {
-    width: 650px;
+    width: 34em;
     text-align: justify;
-    margin-left: -298px;
+    margin-left: -28em;
     color: white;
     padding: 37px;
     font-family: 'Helvetica Now', Arial, sans-serif;
@@ -123,13 +148,16 @@ p {
 #subtitulo{
     text-align: center;
     margin-bottom: 15px;
+    margin-left: 1em;
 }
 #descripcion{
     color: white;
-    text-align: center;
-    margin-bottom: 53px;
+    margin-bottom: 6em;
+    margin-top: 2em;
     font-size: 19px;
     margin-left: 10em;
+    margin-left: 13em;
+    text-align: justify;
 }
 
 /* BOTON LUZ */
@@ -297,6 +325,7 @@ input:checked~section:after {
 
 #skills {
     text-align: -webkit-center;
+    margin-bottom: 5em;
 
 }
 
@@ -306,6 +335,7 @@ input:checked~section:after {
     background: linear-gradient(rgb(255 0 118), rgb(0 243 255));
     -webkit-background-clip: text;
     color: transparent;
+    margin-bottom: 1em;
 }
 
 .materia {
@@ -568,6 +598,7 @@ input:checked~section:after {
     border-radius: 45px;
     -webkit-box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
     box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+    margin-top: 10%;
 }
 
 
