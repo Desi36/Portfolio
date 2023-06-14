@@ -353,7 +353,8 @@ input:checked~section:after {
 }
 .iconmateria{
     font-size: 60px;
-    margin-right: 234px;
+    /* margin-right: 234px; */
+    margin-left: 5em;
     margin-top: -38px;
 }
 
