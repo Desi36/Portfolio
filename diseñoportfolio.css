@@ -346,6 +346,9 @@ input:checked~section:after {
     color: transparent;
     margin-bottom: 1em;
 }
+/* .materia svg.iconmateria path {
+    fill: var(--gradient2);
+  } */
 
 .materia {
     margin-left: 10px;
