@@ -152,13 +152,22 @@ p {
 }
 #descripcion{
     color: white;
-    margin-bottom: 6em;
+    /* margin-bottom: 6em; */
     margin-top: 2em;
     font-size: 19px;
-    margin-left: 10em;
     margin-left: 13em;
     text-align: justify;
 }
+#definición{
+    color: white;
+    margin-bottom: 6em;
+    margin-top: 2em;
+    font-size: 19px;
+    text-align: justify;
+    width: 58em !important;
+    margin-left: 11em !important;
+}
+
 
 /* BOTON LUZ */
 label {
@@ -341,6 +350,11 @@ input:checked~section:after {
 .materia {
     margin-left: 10px;
     text-align: justify
+}
+.iconmateria{
+    font-size: 60px;
+    margin-right: 234px;
+    margin-top: -38px;
 }
 
 /* RESPONSIVE */
